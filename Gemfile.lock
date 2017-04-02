@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bit-struct (0.15.0)
+    bmp-ruby (0.1.1)
+      bit-struct (= 0.15.0)
+      chunky_png (= 1.3.8)
+    chunky_png (1.3.8)
+    hoe (3.16.0)
+      rake (>= 0.8, < 13.0)
+    hoe-bundler (1.3.0)
+      hoe (>= 2.2.0)
+    hoe-gemspec (1.0.0)
+      hoe (>= 2.2.0)
+    hoe-git (1.6.0)
+    hoe-ignore (1.0.0)
+    hoe-yard (0.1.3)
+      yard (~> 0.8)
+    ico (0.1.1)
+      bit-struct (= 0.15.0)
+      bmp-ruby (= 0.1.1)
+      chunky_png (= 1.3.8)
+    minitest (5.10.1)
+    rake (12.0.0)
+    redcarpet (3.4.0)
+    yard (0.9.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hoe (~> 3.16)
+  hoe-bundler (~> 1.2)
+  hoe-gemspec (~> 1.0)
+  hoe-git (~> 1.6)
+  hoe-ignore (~> 1.0)
+  hoe-yard (>= 0.1.3)
+  ico (= 0.1.1)
+  minitest (~> 5.10)
+  redcarpet (~> 3.3)
+  yard (~> 0.8)
+
+BUNDLED WITH
+   1.14.5

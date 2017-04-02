@@ -1,0 +1,45 @@
+##!/usr/bin/env ruby
+#require 'rubygems'
+#require 'optparse'
+#
+#$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+#require 'ico'
+#
+#help =<<-EOS.gsub(/^\s*\|/, '').chomp
+#  |
+#  |favicon
+#  |--------------------------------------------------
+#  |  favicon.ico in Ruby no dependency on imagemagick
+#  |  Gem #{Favicon::VERSION}
+#EOS
+#
+#
+#ARGV << '-h' if ARGV.empty?
+#options = {}
+#
+#parser = OptionParser.new do |opts|
+#  opts.banner = help + "\n\n  usage: favicon [options]"
+#
+#  opts.on('-s', '--size size', 'Size') do |format|
+#    options[:size] = size;
+#  end
+#
+#  opts.on('-i', '--input input', 'Input') do |input|
+#    options[:input] = input;
+#  end
+#
+#  opts.on('-o', '--output output', 'Output') do |output|
+#    options[:output] = output;
+#  end
+#
+#  opts.on_tail("-h", "--help", "Show this message") do
+#    puts opts
+#    puts 
+#    puts 
+#    exit
+#  end
+#end
+#
+#parser.parse!
+#
+#p options

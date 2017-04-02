@@ -1,0 +1,15 @@
+test/*
+bin/*
+.git/*
+
+*.swp
+.*.swp
+**/*.swp
+**/.*.swp
+*.sw?
+.*.sw?
+**/*.sw?
+**/.*.sw?
+
+.DS_Store
+**/.DS_Store

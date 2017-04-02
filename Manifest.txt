@@ -1,0 +1,11 @@
+.autotest
+.gitignore
+.hoeignore
+Gemfile
+History.txt
+LICENSE
+Manifest.txt
+README.md
+Rakefile
+lib/favicon.rb
+lib/favicon/version.rb
