@@ -1,6 +1,8 @@
 # Favicon
 
-  favicon.ico generator in Ruby without imagemagick
+favicon.ico generator in Ruby without imagemagick
+  
+[![Gem Version](https://badge.fury.io/rb/favicon-ruby.svg)](https://badge.fury.io/rb/favicon-ruby)
 
 ## Usage
 
