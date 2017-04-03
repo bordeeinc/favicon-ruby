@@ -4,7 +4,7 @@
 
 source "https://rubygems.org/"
 
-gem "ico", "0.1.1"
+gem "ico", "0.1.2"
 
 gem "minitest", "~>5.10", :group => [:development, :test]
 gem "hoe-yard", ">=0.1.3", :group => [:development, :test]

@@ -32,7 +32,7 @@ Hoe.spec "favicon" do
   self.yard_markup          = 'markdown'
 
   self.extra_deps += [
-    ['ico',                        '0.1.1']
+    ['ico',                        '0.1.2']
   ]
 
   self.extra_dev_deps += [
