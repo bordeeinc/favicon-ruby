@@ -1,4 +1,5 @@
 require 'core_ext/array/extract_options.rb' unless Array.method_defined?(:extract_options!)
+require 'tmpdir'
 require 'ico'
 require 'favicon/version'
 

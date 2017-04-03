@@ -1,14 +1,14 @@
 # -*- encoding: utf-8 -*-
-# stub: favicon-ruby 0.1.0 ruby lib
+# stub: favicon-ruby 0.1.1 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "favicon-ruby"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["So Awesome Man"]
-  s.date = "2017-04-02"
+  s.date = "2017-04-03"
   s.description = "favicon.ico generator in Ruby without imagemagick"
   s.email = "support@bordee.com"
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.md", "History.txt"]
